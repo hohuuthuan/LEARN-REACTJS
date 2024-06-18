@@ -1,0 +1,32 @@
+.col-sm-3{
+    border-right: solid 1px;
+}
+
+h6.footer-title{
+    font-weight: 900;
+    color: #017EB6;
+}
+
+h6 img{
+    width: 20px;
+}
+
+.col-sm-3 p{
+    text-align: justify;
+}
+
+.col-sm-3 a span{
+    color: red;
+    
+}
+
+
+.col-sm-3 a{
+    color: #212529;
+    text-decoration: none;
+}
+
+.footer{
+    padding-top: 20px;
+    background-color: rgb(233, 233, 233);
+}

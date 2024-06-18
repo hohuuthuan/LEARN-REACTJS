@@ -8,4 +8,4 @@ Use bosstrap in App.js
     import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 # MÃ màu chính: #017EB6
-# Mã màu đen: #212529
+# Mã màu đen: 
