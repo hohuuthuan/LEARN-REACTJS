@@ -29,11 +29,6 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <Header></Header>
-        {/* <Slideshow
-          input={collection}
-          ratio={`3:2`}
-          mode={`manual`}
-        /> */}
 
         <Slideshow
           input={collection}
@@ -41,6 +36,9 @@ export default class App extends React.Component {
           mode={`automatic`}
           timeout={`2000`}
         />
+
+        <Home></Home>
+
         <Footer></Footer>
       </div>
     );

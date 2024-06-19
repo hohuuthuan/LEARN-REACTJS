@@ -6,7 +6,7 @@
 }
 
 .lp-slideshow {
-  width: 98.5%;
+  
 }
 
 
@@ -18,7 +18,7 @@
 }
 
 .lp-slideshow>.container>.slide {
-  width: 100%;
+  width: 97.5%;
   height: 100%;
   position: absolute;
   margin: auto;
@@ -92,7 +92,7 @@
 
 .lp-slideshow>.container>.next {
   top : 50%;
-  right: -25px;
+  right: 1px;
   border-radius: 3px 0 0 3px;
 }
 

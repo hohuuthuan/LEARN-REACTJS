@@ -1,6 +1,10 @@
-.main{
+.category-list{
     height: 500px;
 }
-/* .slider{
-    height: 500px;
-} */
+
+.category-list h3{
+    padding-top: 10px;
+    color: #017EB6;
+    font-weight: 800;
+    font-size: 30px;
+}

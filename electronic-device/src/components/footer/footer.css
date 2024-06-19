@@ -1,5 +1,5 @@
 
-.col-sm-3{
+.col-md-3{
     border-right: solid 1px;
 }
 
@@ -12,28 +12,28 @@ h6 img{
     width: 20px;
 }
 
-.col-sm-3 p{
+.col-md-3 p{
     text-align: justify;
 }
 
-.col-sm-3 a span{
+.col-md-3 a span{
     color: red;
 }
 
-.col-sm-3 .info-contact span{
+.col-md-3 .info-contact span{
     color: red;
 }
 
-.col-sm-3 h6 i.hand{
+.col-md-3 h6 i.hand{
     font-size: 17px;
     color: #017EB6;
 }
 
-.col-sm-3 h6 i.facebook{
+.col-md-3 h6 i.facebook{
     color: #0866FF;
     font-size: 20px;
 }
-.col-sm-3 a{
+.col-md-3 a{
     color: #212529;
     text-decoration: none;
 }

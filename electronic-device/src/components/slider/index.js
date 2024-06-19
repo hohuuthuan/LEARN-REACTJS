@@ -140,7 +140,7 @@ export default class Slideshow extends React.Component {
   render() {
     return (
       <div className='container-fluid'>
-        <div className='row'>
+        <div className='row d-none d-sm-block'>
           <div className='col-sm-12'>
             <div className="lp-slideshow">
               <div style={{ width: "1000px"}} className="container">
@@ -167,7 +167,7 @@ export default class Slideshow extends React.Component {
                 <span className="next" onClick={this.forward}>❯</span>
               </div>
 
-              <div className="dot-container">
+              <div className="dot-container d-flex justify-content-center align-items-center">
                 {
                   this.props.input.map((_, index) => {
                     return (

@@ -15,3 +15,25 @@
   color: #222;
   font: normal normal normal 1rem/1.6 Nunito Sans, Helvetica, Arial, sans-serif;
 } */
+
+
+/* Kiểu cho thiết bị có kích thước màn hình lớn */
+/* @media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+} */
+
+/* Kiểu cho thiết bị có kích thước màn hình nhỏ hơn, như tablet */
+/* @media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 720px;
+  }
+} */
+
+/* Kiểu cho thiết bị di động */
+/* @media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+} */

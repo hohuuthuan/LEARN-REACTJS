@@ -3,6 +3,17 @@
     width: 60px;
 }
 
+span{
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+span.input-group-text:hover{
+    background-color: #FFBD3B;
+    transition: ease-in-out 0.5s;
+}
+
+
 
 ul.d-flex a{
     text-decoration: none;
@@ -21,14 +32,21 @@ ul.d-flex a{
 
 
 .card-and-user i{
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 30px;
 }
 .card-and-user a{
     text-decoration: none;
     color: #212529;
 }
+.card-and-user a i.fa-cart-shopping{
+    margin-left: -17px;
+}
 
+
+.card-and-user a i.fa-user{
+    margin-left: 17px;
+}
 
 .background-header{
     background-color: #017EB6;
