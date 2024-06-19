@@ -14,10 +14,15 @@ function Footer(){
                     </div>
                     <div className="col-sm-3">
                         <h6 className="footer-title d-flex justify-content-center align-items-center">THÔNG TIN LIÊN HỆ</h6>
-                        <div><h6><b>Tên:</b> Hồ Hữu Thuận</h6></div> 
-                        <div><h6><b><i class="fa-solid fa-phone"></i> Số điện thoại:</b> 0345492751</h6></div>
-                        <div><h6><img src={logoZalo}></img><b> Zalo:</b> 0345492751</h6></div>
-                        <div><h6><b><i class="fa-brands fa-facebook"></i> Facebook:</b> <a href="https://www.facebook.com/nhan.thien.73594/" target="_blank"><span>Hữu Thuận </span> </a><i class="fa-solid fa-hand-point-left"></i></h6></div>
+                        <div className="info-contact"><h6><b>Tên:</b> <span>Hồ Hữu Thuận</span></h6></div> 
+                        <div className="info-contact"><h6><b><i class="fa-solid fa-phone"></i> Số điện thoại:</b> <span>0345492751</span></h6></div>
+                        <div className="info-contact"><h6><img src={logoZalo}></img><b> Zalo:</b> <span>0345492751</span></h6></div>
+                        <div><h6>
+                            <b><i class="facebook fa-brands fa-facebook"></i> Facebook:</b> 
+                            <a href="https://www.facebook.com/nhan.thien.73594/" target="_blank">
+                            <span> Hữu Thuận </span></a> <i class="hand fa-solid fa-hand-point-left"></i>
+                            </h6>
+                        </div>
                     </div>
                     <div className="col-sm-3">
                         <h6 className="footer-title d-flex justify-content-center align-items-center">CÁC TRANG THÔNG TIN</h6>
@@ -29,14 +34,14 @@ function Footer(){
                     <div className="col-sm-3">
                         <h6 className="footer-title d-flex justify-content-center align-items-center">CÁC TRANG CHÍNH SÁCH</h6>
                         <ul>
-                            <li><h6><a href="#" target="_blank">Chính sách bảo hành</a></h6></li>
-                            <li><h6><a href="#" target="_blank">Chính sách dùng thử - Đổi trả sản phẩm</a></h6></li>
+                            <li><h6><a href="#" target="_blank">Chính sách bảo hành - Đổi trả sản phẩm</a></h6></li>
                             <li><h6><a href="#" target="_blank">Chính sách đặt hàng</a></h6></li>
                             <li><h6><a href="#" target="_blank">Chính sách bảo mật thông tin</a></h6></li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div className="btn-backtop d-flex justify-content-center align-items-center"><a href="home"><i class="fa-solid fa-arrow-up"></i></a></div>
         </div>
     );
 }
