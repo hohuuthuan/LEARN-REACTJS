@@ -41,7 +41,7 @@ function Footer(){
                     </div>
                 </div>
             </div>
-            <div className="btn-backtop d-flex justify-content-center align-items-center"><a href="home"><i class="fa-solid fa-arrow-up"></i></a></div>
+            <div className="btn-backtop d-flex justify-content-center align-items-center"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></div>
         </div>
     );
 }

@@ -1,0 +1,30 @@
+
+
+.col-sm-12 h3.title-home{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    color: #017EB6;
+    font-weight: 800;
+    font-size: 30px;
+    border-bottom: 5px solid #017EB6;
+}
+.category-list .items:hover{
+    opacity: 0.7;
+}
+
+
+.category-list .items a{
+    text-decoration: none;
+    color: #212529;
+    font-size: 30px;
+}
+
+
+.category-list .items .item-title{
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: #3db2e8;
+    color: white;
+    font-weight: 800;
+}
