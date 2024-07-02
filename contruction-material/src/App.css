@@ -37,3 +37,9 @@
     width: 100%;
   }
 } */
+
+.App .main{
+  max-width: 1200px;
+  margin: auto;
+}
+

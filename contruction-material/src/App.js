@@ -37,8 +37,11 @@ export default class App extends React.Component {
           timeout={`2000`}
         />
 
-        <Home></Home>
 
+        <div className="main">
+          <Home></Home>
+        </div>
+        
         <Footer></Footer>
       </div>
     );

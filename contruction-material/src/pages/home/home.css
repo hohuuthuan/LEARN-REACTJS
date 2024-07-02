@@ -1,15 +1,25 @@
 
-
-.col-sm-12 h3.title-home{
+.category h3.title-home,
+.hot-products h3.title-home,
+.best-seller h3.title-home{
     padding-top: 10px;
     padding-bottom: 4px;
+    margin-bottom: 20px ;
     color: #017EB6;
     font-weight: 800;
     font-size: 30px;
     border-bottom: 5px solid #017EB6;
 }
+
+
+.container>.category>.category-list{
+    width: 900px;
+    margin: auto;
+}
+
+
 .category-list .items:hover{
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 
@@ -21,10 +31,12 @@
 
 
 .category-list .items .item-title{
+    margin: 30px;
     width: 150px;
     height: 150px;
-    border-radius: 7px;
+    border-radius: 20px;
     background-color: #3db2e8;
     color: white;
     font-weight: 800;
 }
+
